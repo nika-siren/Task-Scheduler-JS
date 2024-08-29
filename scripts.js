@@ -35,6 +35,7 @@ addTaskBtn.addEventListener("click", () => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
     renderTasks();
     taskInput.value = "";
+    noTasksMessage.classList.add("hidden");
   }
 });
 
