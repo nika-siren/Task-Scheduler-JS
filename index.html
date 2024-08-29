@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-Scheduler-JS</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="container">
+        <h1>Планировщик задач</h1>
+        <input type="text" id="taskInput" placeholder="Введите задачу" />
+        <button id="addTaskBtn">Добавить в список</button>
+        <button id="clearListBtn" disabled>Очистить список</button>
+        <h2>Список задач</h2>
+        <img src="/assets/images/cat.jpg" alt="Кот" />
+        <br />
+        <p id="noTasksMessage" class="hidden">Задачи отсутствуют</p>
+        <div id="taskList"></div>
+      </div>
+
+      <div class="creator__link-container">
+        <p>
+          ⋆.˚✮🎧✮˚.⋆
+          <br />
+          <br />
+          site was made by
+          <a href="https://t.me/nika_sirenn" id="creator">nika siren</a>
+          <br />
+          <br />
+          photo by Ludemeula Fernandes on Unsplash
+        </p>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

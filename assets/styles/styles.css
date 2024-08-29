@@ -1,0 +1,91 @@
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #63a2d6;
+
+    text-align: center;
+}
+
+.container-main {
+    /*min300px max600px*/
+    max-width: clamp(18.75rem, 15.726rem + 24.194vw, 37.5rem);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container img {
+    /*min100px max250px*/
+    max-height: clamp(6.25rem, 4.738rem + 12.097vw, 15.625rem);
+}
+
+h1 {
+    font-weight: bold;
+    font-style: normal;
+    font-size: clamp(1.25rem, 0.536rem + 1.905vw, 2.25rem);
+
+    padding-top: 5%;
+    padding-right: 1%;
+
+    text-wrap: nowrap;
+}
+
+#taskInput {
+    border: 5px solid #B9D0DF;
+    border-radius: 50px;
+    width: 220px;
+    height: 50px;
+}
+
+input::-webkit-input-placeholder {
+    color: #B9D0DF;
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #B9D0DF;
+    border: 1px solid #B9D0DF;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    margin: 4%;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: 1s;
+    user-select: none;
+    -webkit-user-select: none;
+    /*width 100px-170px*/
+    width: 220px;
+    height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+#addTaskBtn,
+#clearListBtn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#creator {
+    color: #63a2d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.creator__link-container {
+    font-size: clamp(0.5rem, 0.232rem + 0.714vw, 0.875rem);
+}
