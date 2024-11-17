@@ -36,6 +36,8 @@ UI_ELEMENTS.addTaskBtn.addEventListener("click", () => {
     renderTasks();
     UI_ELEMENTS.taskInput.value = "";
     UI_ELEMENTS.noTasksMessage.classList.add("hidden");
+  } else {
+    alert("Пожалуйста, введите задачу <3");
   }
 });
 
